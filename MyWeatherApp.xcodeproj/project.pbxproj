@@ -16,6 +16,7 @@
 		7CC57D3925EE7A8300C39951 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC57D3825EE7A8200C39951 /* APIService.swift */; };
 		7CC57D3E25EE7B4600C39951 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC57D3D25EE7B4600C39951 /* Forecast.swift */; };
 		7CC57D7725EFD7F800C39951 /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC57D7625EFD7F800C39951 /* ForecastViewModel.swift */; };
+		7CC57D7C25EFDCFF00C39951 /* ForecastListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC57D7B25EFDCFF00C39951 /* ForecastListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		7CC57D3825EE7A8200C39951 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		7CC57D3D25EE7B4600C39951 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 		7CC57D7625EFD7F800C39951 /* ForecastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewModel.swift; sourceTree = "<group>"; };
+		7CC57D7B25EFDCFF00C39951 /* ForecastListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				7CC57D1025EE7A3100C39951 /* Preview Content */,
 				7CC57D3D25EE7B4600C39951 /* Forecast.swift */,
 				7CC57D7625EFD7F800C39951 /* ForecastViewModel.swift */,
+				7CC57D7B25EFDCFF00C39951 /* ForecastListViewModel.swift */,
 			);
 			path = MyWeatherApp;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				7CC57D3925EE7A8300C39951 /* APIService.swift in Sources */,
 				7CC57D0B25EE7A2F00C39951 /* MyWeatherAppApp.swift in Sources */,
 				7CC57D7725EFD7F800C39951 /* ForecastViewModel.swift in Sources */,
+				7CC57D7C25EFDCFF00C39951 /* ForecastListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
