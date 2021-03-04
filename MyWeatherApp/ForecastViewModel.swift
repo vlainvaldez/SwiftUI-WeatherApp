@@ -9,6 +9,7 @@ import Foundation
 
 struct ForecastViewModel {
   let forecast: Forecast.Daily
+  var system: Int
   
   private static var dateFormatter: DateFormatter {
     let dateFormatter = DateFormatter()
@@ -37,11 +38,11 @@ struct ForecastViewModel {
   }
   
   var high: String {
-    "H: \(Self.numberFormatter.string(from: NSNumber(value: forecast.temp.max)) ?? "0" )°"
+    "H: \(Self.numberFormatter.string(from: NSNumber(value: convert(forecast.temp.max))) ?? "0" )°"
   }
   
   var low: String {
-    "L: \(Self.numberFormatter.string(from: NSNumber(value: forecast.temp.min)) ?? "0" )°"
+    "L: \(Self.numberFormatter.string(from: NSNumber(value: convert(forecast.temp.min))) ?? "0" )°"
   }
   
   var pop: String {
@@ -54,6 +55,16 @@ struct ForecastViewModel {
   
   var humidity: String {
     "Humidity: \(forecast.humidity)%"
+  }
+  
+  func convert(_ temp: Double) -> Double {
+    let celsius = temp - 273.5
+    
+    if system == 0 {
+      return celsius
+    } else {
+      return celsius * 9 / 5 + 32
+    }
   }
   
 }

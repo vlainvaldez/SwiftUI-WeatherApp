@@ -3,4 +3,54 @@
    uuid = "BD19AC2A-8F13-4F89-BE99-582D681726DB"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E74817E-5FBE-485C-BC35-5C322EFAD2A2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyWeatherApp/ForecastListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "system"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "1E74817E-5FBE-485C-BC35-5C322EFAD2A2 - 4b39c9601b302774"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyWeatherApp.ForecastListViewModel.system.didset : Swift.Int"
+                  moduleName = "MyWeatherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alvinjosephvaldez/MobileDevelopment/SwiftUI/MyWeatherApp/MyWeatherApp/ForecastListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "29">
+               </Location>
+               <Location
+                  uuid = "1E74817E-5FBE-485C-BC35-5C322EFAD2A2 - d8de22d6d6faff93"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MyWeatherApp.ForecastViewModel) -&gt; () in MyWeatherApp.ForecastListViewModel.system.didset : Swift.Int"
+                  moduleName = "MyWeatherApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alvinjosephvaldez/MobileDevelopment/SwiftUI/MyWeatherApp/MyWeatherApp/ForecastListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "99">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
